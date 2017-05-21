@@ -1,7 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "angular2-hero-tutorial"
+    "name": "angular2-hero-tutorial",
+    "ejected": true
   },
   "apps": [
     {
@@ -52,6 +53,7 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {
+    }
   }
 }
