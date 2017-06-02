@@ -6,8 +6,7 @@ import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 
 //If you have guard services, the Routing Module adds module providers. (There are none in this example
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
-  { path: 'dashboard',  component: DashboardComponent },
+  { path: '',  component: DashboardComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
   { path: 'heroes',     component: HeroesComponent }
 ];
